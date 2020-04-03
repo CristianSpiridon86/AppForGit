@@ -32,7 +32,7 @@ public class WarmUp {
             m = m/10;
             i++;  
         }
-        System.out.println(sum);
+        System.out.println("Suma este " + sum);
         while (sum !=0){
             sumfin = sumfin + sum%10;//daca sum e 29, cand aduni 2+9=11, dar el nu mai recalculeaza
             sum=sum/10;//inca o conditie pt sumfin sa nu aiba 2 digits
